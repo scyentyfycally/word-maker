@@ -35,7 +35,11 @@ public class NumbersTest
   [DataRow(999, "Nine Hundred and Ninety Nine")]
   public void HandleNumbersBetween1And999(int input, string expected)
   {
-      Assert.AreEqual(expected, WordMaker.Numbers.Convert(input), string.Format("Should accept {0} and return {1}", input, expected));
+      Assert.AreEqual(
+        expected,
+        WordMaker.Numbers.Convert(input),
+        string.Format("Should accept {0} and return {1}", input, expected)
+      );
   }
 
 }

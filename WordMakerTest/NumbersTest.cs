@@ -17,7 +17,6 @@ public class NumbersTest
   }
 
   [DataTestMethod]
-  [DataRow(1, 1, 2)]
   [DataRow(1, "One")]
   [DataRow(8, "Eight")]
   [DataRow(12, "Twelve")]
